@@ -1,0 +1,51 @@
+
+canvas {
+  position: fixed;
+}
+
+.player {
+  display: none;
+}
+.point {
+  position: fixed;
+  border-radius: 30%;
+}
+
+.topButton {
+  left: 50%;
+  top:2%;
+}
+.topLeftButton {
+  left: 2%;
+  top:2%;
+}
+.topRightButton {
+  right: 2%;
+  top:2%;
+}
+.botButton {
+  left: 50%;
+  bottom:2%;
+}
+.botLeftButton {
+  left: 2%;
+  bottom:2%;
+}
+.botRightButton {
+  right: 2%;
+  bottom:2%;
+}
+.leftButton {
+  left: 2%;
+  bottom:50%;
+}
+
+.rightButton {
+  right: 2%;
+  bottom:50%;
+}
+
+.centerButton{
+  left: 50%;
+  bottom: 50%
+}
