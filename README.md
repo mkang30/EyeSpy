@@ -1,18 +1,24 @@
-# Getting Started with Create React App
+# EyeSpy - Live gaze prediction web app via webcam
+
+We present EyeSpy, a web application that uses live webcam data to predict and visualize user gaze. It utilizes the face landmarks (with iris) detection model from
+TensorFlow.js and an original multiple-regression model
+to make gaze estimations.
+
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## To Run:
 
-In the project directory, you can run:
+In `EyeSpy` directory, run `npm install` from terminal -- this will install the `node_modules` folder
+needed to run the app.
 
-### `npm start`
-
-Runs the app in the development mode.\
+Once you have successfully installed the required modules, `cd src` and call `npm start` to run the app in development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+
+### Other Available Scripts:
 
 ### `npm test`
 
